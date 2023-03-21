@@ -1,0 +1,83 @@
+{
+  "name": "kaylookash-landing",
+  "version": "0.1.0",
+  "homepage": "https://kaylookashproduce.com",
+  "private": true,
+  "browser": {
+    "crypto": false
+  },
+  "dependencies": {
+    "@brainhubeu/react-carousel": "^2.0.4",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/material": "^5.10.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "@walletconnect/web3-provider": "^1.7.8",
+    "assert": "^2.0.0",
+    "axios": "^0.27.2",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "browser": "^0.2.6",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "fs": "^0.0.1-security",
+    "glamor": "^2.20.40",
+    "glamorous": "^4.11.0",
+    "http-browserify": "^1.7.0",
+    "https-browserify": "^1.0.0",
+    "infinite-react-carousel": "^1.2.11",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "payment": "^2.4.6",
+    "react": "^18.0.0",
+    "react-app-rewired": "^2.2.1",
+    "react-carousel-vertical": "^1.10.27",
+    "react-countup": "^6.4.1",
+    "react-dom": "^18.0.0",
+    "react-lottie": "^1.2.3",
+    "react-notifications": "^1.7.4",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.0",
+    "react-text-loop": "^2.3.0",
+    "stream": "^0.0.2",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "styled-components": "^5.3.5",
+    "universal-cookie": "^4.0.4",
+    "url": "^0.11.0",
+    "util": "^0.12.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  }
+}
